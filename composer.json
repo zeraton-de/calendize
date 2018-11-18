@@ -1,0 +1,25 @@
+{
+    "name": "zeraton/calendize",
+    "description": "A laravel-compatible CalDAV client",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Alexander Jank",
+            "email": "alex@zeraton.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zeraton\\Calendize\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    }
+}
